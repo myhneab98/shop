@@ -1,0 +1,17 @@
+@use '~@angular/material' as mat;
+
+@include mat.core();
+
+$shop-primary: mat.define-palette(mat.$grey-palette, 600);
+$shop-accent: mat.define-palette(mat.$blue-palette, 500);
+$shop-warn: mat.define-palette(mat.$red-palette, 900);
+
+$shop-theme: mat.define-light-theme((
+  color: (
+    primary: $shop-primary,
+    accent: $shop-accent,
+    warn: $shop-warn
+  )
+));
+
+@include mat.all-component-themes($shop-theme);
