@@ -1,0 +1,33 @@
+.top-bar {
+    width: calc(100% - 100px);
+    height: 80px;
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    padding: 0 50px;
+}
+
+.bottom-shadow {
+    -webkit-box-shadow: 0 0px 30px -10px black;
+       -moz-box-shadow: 0 0px 30px -10px black;
+            box-shadow: 0 0px 30px -10px black;
+}
+
+.logo {
+}
+
+.navigation-buttons {
+    font-size: 18px;
+    display: block;
+    text-align: center;
+    align-self: center;
+}
+
+button {
+    font-size: 18px;
+}
+
+.action-buttons {
+    display: block;
+    text-align: end;
+    align-self: center;
+}
